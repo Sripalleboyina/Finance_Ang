@@ -1,0 +1,39 @@
+<!-- <app-admin-login></app-admin-login> -->
+<!-- <app-dashboard></app-dashboard> -->
+<!-- <app-admin-activate></app-admin-activate> -->
+ <!-- <app-register></app-register> -->
+ <!-- <app-index-page></app-index-page> -->
+<!-- <app-login-page></app-login-page> -->
+<div>
+    <div>
+        <div class="topnav">
+            <table id="nav_table">
+              <tr>
+                <th><a routerLink="/Register"><span style="color:black;font-family: sans-serif;font-size: 20px;">Register</span></a></th>
+              <th><a routerLink="/Login"><span style="color:black;font-family: sans-serif;font-size: 20px;">Login</span></a></th>
+            </tr>
+          </table>
+          </div>
+    </div>
+    <router-outlet></router-outlet>
+    <footer>
+        <div style="margin-top: 20px;" class="card">
+          <div class= "card" style="background-color:burlywood;height: 120px;">
+            <div style="text-align: center;font-family: sans-serif;padding-top: 20px;"><strong> © 2009 - 2021 LFI. All Rights Reserved. LFI® is a registered
+              trademark.</strong></div><br>
+            <div style="text-align: center;font-family: sans-serif;"><strong> by LFI | WordPress hosting by L&T | WordPress CDN by L&T Group</strong> </div>
+          </div>
+        </div>
+      </footer>
+</div>
+    <style>
+        .card-body{
+            text-align: center;
+        }
+        .top{
+            padding-top: 150px;
+        }
+        button{
+            width: fit-content;
+        }
+    </style>
