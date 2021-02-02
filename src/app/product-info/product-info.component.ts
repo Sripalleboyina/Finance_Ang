@@ -46,7 +46,7 @@ console.log(data);
   placeorder()
   {
     this.order.EMItype_id=this.emivar.EMItype_id;
-    this.order.customer_id=7;
+    this.order.customer_id=9;
     this.order.product_id=this.product.product_id;
 this.service.Postplaceorder(this.order).subscribe((data)=>{
 if(data==1)
